@@ -1,0 +1,172 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:player",
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "recipes": {
+                      "minecraft:netherite_ingot": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_sword",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "weight": 8,
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:player",
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "recipes": {
+                      "minecraft:netherite_ingot": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_sword",
+            "weight": 4
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "id": "sweep",
+            "attribute": "minecraft:player.sweeping_damage_ratio",
+            "amount": {
+              "min": -1,
+              "max": {
+                "type": "minecraft:binomial",
+                "n": 5,
+                "p": 0.5
+              }
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "id": "dmg",
+            "attribute": "minecraft:generic.attack_damage",
+            "amount": {
+              "min": -1,
+              "max": {
+                "type": "minecraft:binomial",
+                "n": 5,
+                "p": 0.5
+              }
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "id": "knock",
+            "attribute": "minecraft:generic.attack_knockback",
+            "amount": {
+              "min": -1,
+              "max": {
+                "type": "minecraft:binomial",
+                "n": 5,
+                "p": 0.5
+              }
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "id": "spd",
+            "attribute": "minecraft:generic.attack_speed",
+            "amount": {
+              "min": -1,
+              "max": {
+                "type": "minecraft:binomial",
+                "n": 5,
+                "p": 0.5
+              }
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      }
+    ]
+  }
+  

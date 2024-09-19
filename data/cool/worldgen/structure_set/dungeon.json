@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "cool:dungeon",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 11399512,
+      "spacing": 30,
+      "separation": 8
+    }
+  }
+  

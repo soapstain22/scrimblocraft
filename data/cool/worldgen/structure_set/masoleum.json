@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "cool:masoleum",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1230,
+      "spacing": 5,
+      "separation": 2
+    }
+  }
+  

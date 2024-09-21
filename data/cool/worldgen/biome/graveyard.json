@@ -1,15 +1,15 @@
 {
   "temperature": 2,
-  "downfall": 0,
+  "downfall": 1,
   "has_precipitation": false,
   "creature_spawn_probability": 0.03,
   "effects": {
-    "sky_color": 11250603,
-    "fog_color": 7895160,
+    "sky_color": 7237230,
+    "fog_color": 2171169,
     "water_color": 6517132,
     "water_fog_color": 2171190,
     "grass_color": 7498575,
-    "foliage_color": 8088657,
+    "foliage_color": 4931887,
     "particle": {
       "options": {
         "type": "minecraft:soul"

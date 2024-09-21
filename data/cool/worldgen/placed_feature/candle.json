@@ -3,10 +3,7 @@
     "placement": [
       {
         "type": "minecraft:rarity_filter",
-        "chance": 16
-      },
-      {
-        "type": "minecraft:in_square"
+        "chance": 4
       },
       {
         "type": "minecraft:heightmap",
@@ -14,6 +11,9 @@
       },
       {
         "type": "minecraft:biome"
+      },
+      {
+        "type": "minecraft:in_square"
       }
     ]
   }

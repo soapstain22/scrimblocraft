@@ -1,0 +1,328 @@
+{
+    "type": "minecraft:block_pile",
+    "config": {
+      "state_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 4,
+            "data": {
+              "Name": "minecraft:furnace",
+              "Properties": {
+                "facing": "north",
+                "lit": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:rail",
+              "Properties": {
+                "shape": "east_west",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:rail",
+              "Properties": {
+                "shape": "north_west",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:rail",
+              "Properties": {
+                "shape": "south_east",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:rail",
+              "Properties": {
+                "shape": "east_west",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "weight": 3,
+            "data": {
+              "Name": "minecraft:furnace",
+              "Properties": {
+                "facing": "south",
+                "lit": "false"
+              }
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "Name": "minecraft:repeater",
+              "Properties": {
+                "delay": "2",
+                "facing": "west",
+                "locked": "false",
+                "powered": "false"
+              }
+            }
+          },
+          {
+            "weight": 3,
+            "data": {
+              "Name": "minecraft:repeater",
+              "Properties": {
+                "delay": "2",
+                "facing": "south",
+                "locked": "false",
+                "powered": "false"
+              }
+            }
+          },
+          {
+            "weight": 6,
+            "data": {
+              "Name": "minecraft:crafting_table"
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "Name": "minecraft:comparator",
+              "Properties": {
+                "facing": "south",
+                "mode": "subtract",
+                "powered": "false"
+              }
+            }
+          },
+          {
+            "weight": 5,
+            "data": {
+              "Name": "minecraft:comparator",
+              "Properties": {
+                "facing": "west",
+                "mode": "subtract",
+                "powered": "false"
+              }
+            }
+          },
+          {
+            "weight": 3,
+            "data": {
+              "Name": "minecraft:hopper",
+              "Properties": {
+                "enabled": "false",
+                "facing": "down"
+              }
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "Name": "minecraft:cauldron"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "south"
+              }
+            }
+          },
+          {
+            "weight": 5,
+            "data": {
+              "Name": "minecraft:crafter",
+              "Properties": {
+                "crafting": "false",
+                "orientation": "up_north",
+                "triggered": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:crafter",
+              "Properties": {
+                "crafting": "false",
+                "orientation": "west_up",
+                "triggered": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:redstone_lamp",
+              "Properties": {
+                "lit": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:chiseled_bookshelf",
+              "Properties": {
+                "facing": "south",
+                "slot_0_occupied": "false",
+                "slot_1_occupied": "false",
+                "slot_2_occupied": "false",
+                "slot_3_occupied": "false",
+                "slot_4_occupied": "false",
+                "slot_5_occupied": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:loom",
+              "Properties": {
+                "facing": "north"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:loom",
+              "Properties": {
+                "facing": "south"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:loom",
+              "Properties": {
+                "facing": "east"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:loom",
+              "Properties": {
+                "facing": "west"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:fletching_table"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:cartography_table"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:smithing_table"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:dispenser",
+              "Properties": {
+                "facing": "east",
+                "triggered": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:dispenser",
+              "Properties": {
+                "facing": "west",
+                "triggered": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:dispenser",
+              "Properties": {
+                "facing": "north",
+                "triggered": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:dispenser",
+              "Properties": {
+                "facing": "south",
+                "triggered": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:dropper",
+              "Properties": {
+                "facing": "west",
+                "triggered": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:dropper",
+              "Properties": {
+                "facing": "south",
+                "triggered": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:dropper",
+              "Properties": {
+                "facing": "north",
+                "triggered": "false"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:dropper",
+              "Properties": {
+                "facing": "east",
+                "triggered": "false"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+  

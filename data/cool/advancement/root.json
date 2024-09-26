@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dirt",
+      "count": 1
+    },
+    "title": "gourmet server",
+    "description": "log in.",
+    "background": "minecraft:textures/block/bricks.png",
+    "frame": "goal",
+    "show_toast": true
+  },
+  "criteria": {
+    "the": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": true
+}

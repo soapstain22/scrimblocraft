@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:skeleton_skull",
+        "count": 1
+      },
+      "title": "stay up all night",
+      "description": "visit a 7/11",
+      "background": "minecraft:textures/block/bricks.png",
+      "frame": "task"
+    },
+    "parent": "cool:root",
+    "criteria": {
+      "seveneleven": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "location": {
+              "structures": "cool:711"
+            }
+          }
+        }
+      }
+    }
+  }
+  

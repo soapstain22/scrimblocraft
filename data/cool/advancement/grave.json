@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:skeleton_skull",
+        "count": 1
+      },
+      "title": "erm i think i just shat my diaper",
+      "description": "go into a graveyard biome",
+      "background": "minecraft:textures/block/bricks.png"
+    },
+    "parent": "cool:root",
+    "criteria": {
+      "graveyard": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "cool:graveyard"
+            }
+          }
+        }
+      }
+    }
+  }
+  

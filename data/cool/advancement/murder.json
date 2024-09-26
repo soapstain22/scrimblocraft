@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:wooden_sword",
+        "count": 1
+      },
+      "title": "mans laughter",
+      "description": "kill someone ",
+      "background": "minecraft:textures/block/bricks.png",
+      "frame": "task",
+      "announce_to_chat": true
+    },
+    "parent": "cool:root",
+    "criteria": {
+      "seveneleven": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [],
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

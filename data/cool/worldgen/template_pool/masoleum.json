@@ -8,7 +8,7 @@
         "projection": "rigid",
         "location": "cool:masoleum",
         "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
+        "processors": "cool:age"
       }
     }
   ]

@@ -1,56 +1,79 @@
 {
-  "type": "minecraft:block_pile",
+  "type": "minecraft:random_patch",
   "config": {
-    "state_provider": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cobweb"
+    "tries": 1,
+    "xz_spread": 5,
+    "y_spread": 2,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:cobweb"
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "minecraft:pumpkin"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:jack_o_lantern",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:jack_o_lantern",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:jack_o_lantern",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:jack_o_lantern",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              }
+            ]
           }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 4
         },
         {
-          "weight": 5,
-          "data": {
-            "Name": "minecraft:pumpkin"
-          }
+          "type": "minecraft:in_square"
         },
         {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:jack_o_lantern",
-            "Properties": {
-              "facing": "north"
-            }
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:jack_o_lantern",
-            "Properties": {
-              "facing": "south"
-            }
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:jack_o_lantern",
-            "Properties": {
-              "facing": "east"
-            }
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:jack_o_lantern",
-            "Properties": {
-              "facing": "west"
-            }
-          }
+          "type": "minecraft:heightmap",
+          "heightmap": "OCEAN_FLOOR"
         }
       ]
     }

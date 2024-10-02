@@ -1,0 +1,22 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection": "rigid",
+          "feature": "minecraft:fancy_oak_bees"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection": "rigid",
+          "feature": "minecraft:super_birch_bees"
+        }
+      }
+    ]
+  }
+  

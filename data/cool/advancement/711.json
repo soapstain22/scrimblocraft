@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:skeleton_skull",
+        "id": "minecraft:emerald",
         "count": 1
       },
-      "title": "stay up all night",
+      "title": "she stays up all night!!!!!",
       "description": "visit a 7/11",
       "background": "minecraft:textures/block/bricks.png",
       "frame": "task"

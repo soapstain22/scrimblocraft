@@ -6,9 +6,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "cool:castle/tower/straight",
+        "location": "cool:fort/corner/a",
         "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
+        "processors": "cool:age"
       }
     },
     {
@@ -16,9 +16,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "cool:castle/tower/corner",
+        "location": "cool:fort/core/a",
         "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
+        "processors": "cool:age"
       }
     },
     {
@@ -26,9 +26,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "cool:castle/wall/outer",
+        "location": "cool:fort/wall/a",
         "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
+        "processors": "cool:age"
       }
     },
     {
@@ -36,9 +36,19 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "cool:castle/wall/inner",
+        "location": "cool:fort/wall/b",
         "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
+        "processors": "cool:age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "cool:fort/inside/a",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "cool:age"
       }
     }
   ]

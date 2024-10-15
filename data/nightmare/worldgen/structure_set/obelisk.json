@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "nightmare:obelisk",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 139499204,
+      "spacing": 300,
+      "separation": 100
+    }
+  }
+  

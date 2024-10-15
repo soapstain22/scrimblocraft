@@ -6,8 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "cool:castle/tower/straight",
-        "override_liquid_settings": "ignore_waterlogging",
+        "location": "cool:oakcorner",
         "processors": "minecraft:empty"
       }
     },
@@ -16,8 +15,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "cool:castle/tower/corner",
-        "override_liquid_settings": "ignore_waterlogging",
+        "location": "cool:oakwall",
         "processors": "minecraft:empty"
       }
     },
@@ -26,8 +24,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "cool:castle/wall/outer",
-        "override_liquid_settings": "ignore_waterlogging",
+        "location": "cool:oakfloorstraight",
         "processors": "minecraft:empty"
       }
     },
@@ -36,8 +33,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "cool:castle/wall/inner",
-        "override_liquid_settings": "ignore_waterlogging",
+        "location": "cool:oakfloor",
         "processors": "minecraft:empty"
       }
     }

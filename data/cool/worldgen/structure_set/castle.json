@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "cool:garden",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 25535646,
+      "spacing": 40,
+      "separation": 10
+    }
+  }
+  

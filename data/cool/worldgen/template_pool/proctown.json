@@ -1,0 +1,158 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "projection": "rigid",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/oak/3x3",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/birch/3x3",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/spruce/3x3",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/darkoak/3x3",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/bamboo/3x3",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/jungle/3x3",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/oak/3x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/birch/3x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/spruce/3x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/darkoak/3x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/bamboo/3x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/jungle/3x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/oak/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/birch/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/spruce/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/darkoak/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/bamboo/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:floor/jungle/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:wall/oak/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:wall/birch/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:wall/spruce/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:wall/darkoak/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:wall/bamboo/6x6",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "cool:wall/jungle/6x6",
+            "processors": "minecraft:empty"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+    "description": "shotgun!",
+    "supported_items": "minecraft:crossbow",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 5,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 2,
+    "slots": [],
+    "effects": {    
+      "minecraft:projectile_spawned": [
+        {
+          "effect": {
+            "type": "minecraft:play_sound",
+            "sound": "minecraft:ui.button.click",
+            "volume": 0.00001,
+            "pitch": 0.00001
+          }
+        }
+      ],
+      "minecraft:projectile_spread": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": 10
+          }
+        }
+      ],
+      "minecraft:crossbow_charging_sounds": [
+        {
+          "start": "minecraft:ui.button.click",
+          "end": "minecraft:ui.button.click"
+        }
+      ],
+      "minecraft:projectile_count": [
+        {
+          "effect": {
+            "type": "minecraft:set",
+            "value": 6
+          }
+        }
+      ]
+  
+      
+    }
+  }
+  

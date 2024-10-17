@@ -13,6 +13,12 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
-  "features": []
+  "carvers": {
+    "liquid": [
+      "nightmare:chasm"
+    ]
+  },
+  "features": [
+    "nightmare:geodes"
+  ]
 }

@@ -1,13 +1,13 @@
 {
     "structures": [
       {
-        "structure": "nightmare:obelisk",
+        "structure": "nightmare:factory",
         "weight": 1
       }
     ],
     "placement": {
       "type": "minecraft:random_spread",
-      "salt": 10020043,
+      "salt": 139499204,
       "spacing": 200,
       "separation": 50
     }

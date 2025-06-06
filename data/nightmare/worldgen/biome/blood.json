@@ -13,12 +13,9 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {
-    "liquid": [
-      "nightmare:chasm"
-    ]
-  },
+  "carvers": [],
   "features": [
-    "nightmare:geodes"
-  ]
-}
+    [
+      "minecraft:ore_clay"
+    ]
+  ]}

@@ -13,6 +13,10 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
-  "features": []
+  "carvers": [],
+  "features": [
+    [
+      "minecraft:ore_clay"
+    ]
+  ]
 }

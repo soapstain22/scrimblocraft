@@ -1,6 +1,6 @@
 playsound minecraft:item.book.page_turn master @a ~ ~ ~ 1 2 0
 #execute store result storage cards:hands temp1 int 1 run scoreboard players get gamblingmachine1 math
-execute store result storage cards:hands temp int 1 run random roll 0..14 
+execute store result storage cards:hands temp int 1 run random roll 0..14
 execute store result storage cards:hands temp1 int 1 run data get block ~ ~ ~ components.minecraft:custom_data.playervalue
 $data modify block ~ ~ ~ components.minecraft:custom_data.playerhand append from storage cards:hands hands[$(temp)]
 

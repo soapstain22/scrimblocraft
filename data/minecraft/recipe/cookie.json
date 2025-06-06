@@ -5,21 +5,12 @@
       "#X#"
     ],
     "key": {
-      "#": {
-        "item": "minecraft:wheat"
-      },
-      "X": {
-        "item": "minecraft:cocoa_beans"
-      }
+      "#": "minecraft:wheat",
+      "X": "minecraft:cocoa_beans"
     },
     "result": {
       "id": "minecraft:cookie",
-      "count": 8,
-      "components": {
-        "minecraft:jukebox_playable": {
-          "song": "minecraft:stal"
-        }
-      }
+      "count": 8
     }
   }
   

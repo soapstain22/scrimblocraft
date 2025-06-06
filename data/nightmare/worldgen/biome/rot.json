@@ -1,4 +1,6 @@
 {
+  "carvers": [
+    ],
   "temperature": 0.8,
   "downfall": 0.4,
   "has_precipitation": false,
@@ -13,25 +15,9 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {
-    "air": [
-      {
-        "type": "minecraft:cave",
-        "config": {
-          "probability": 0.1,
-          "y": {
-            "absolute": 0
-          },
-          "yScale": 0,
-          "lava_level": {
-            "absolute": 0
-          },
-          "horizontal_radius_multiplier": 0,
-          "vertical_radius_multiplier": 0,
-          "floor_level": 0
-        }
-      }
+
+  "features": [
+    [
+      "minecraft:ore_clay"
     ]
-  },
-  "features": []
-}
+  ]}

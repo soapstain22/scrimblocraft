@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "nightmare:factory",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 200030100,
+      "spacing": 300,
+      "separation": 100
+    }
+  }
+  

@@ -9,9 +9,9 @@
         {
           "biome": "nightmare:blood",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": -0.3,
+            "temperature": 0.1,
+            "humidity": -0.1,
+            "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -21,8 +21,32 @@
         {
           "biome": "nightmare:scar",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
+            "temperature": -0.1,
+            "humidity": 0.1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:rot",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:meat",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": -0.1,
             "continentalness": -0.1,
             "erosion": 0,
             "weirdness": 0,
@@ -33,19 +57,7 @@
         {
           "biome": "nightmare:rot",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0.1,
-            "continentalness": 0.1,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "nightmare:meat",
-          "parameters": {
-            "temperature": 0,
+            "temperature": -0.1,
             "humidity": -0.1,
             "continentalness": 0.1,
             "erosion": 0,
@@ -55,13 +67,25 @@
           }
         },
         {
-          "biome": "nightmare:scab",
+          "biome": "nightmare:poison",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 0,
+            "weirdness": 1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:fog",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -1,
             "depth": 0,
             "offset": 0
           }

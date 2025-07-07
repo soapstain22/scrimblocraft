@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:scattered_ore",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "state": {
+          "Name": "minecraft:bricks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "state": {
+          "Name": "minecraft:sandstone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "state": {
+          "Name": "minecraft:cobblestone"
+        }
+      }
+    ],
+    "size": 5,
+    "discard_chance_on_air_exposure": 1
+  }
+}

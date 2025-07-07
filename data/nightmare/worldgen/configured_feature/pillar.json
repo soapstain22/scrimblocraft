@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "up",
+    "allowed_placement": {
+      "type": "minecraft:true"
+    },
+    "prioritize_tip": false,
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:uniform",
+          "min_inclusive": 5,
+          "max_inclusive": 10
+        },
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:black_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:blue_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:brown_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:cyan_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:gray_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:green_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:light_blue_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:light_gray_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:lime_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:magenta_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:orange_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:pink_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:purple_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:red_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:white_concrete"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:yellow_concrete"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

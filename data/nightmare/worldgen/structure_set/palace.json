@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "nightmare:palace",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 200030100,
+      "spacing": 100,
+      "separation": 70
+    }
+  }
+  

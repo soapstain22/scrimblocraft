@@ -7,10 +7,298 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "nightmare:blood",
+          "biome": "nightmare:totem",
           "parameters": {
-            "temperature": 0.1,
-            "humidity": -0.1,
+            "temperature": -1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:pillars",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -1,
+            "continentalness": 0,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:columns",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:spires",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:city",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
+            "continentalness": 1,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:village",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
+            "continentalness": 1,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:ruins",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 1,
+            "continentalness": 1,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:outpost",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -1,
+            "continentalness": 1,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:terracotta",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 1,
+            "continentalness": 0.5,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:concrete",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
+            "continentalness": 0.5,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:wool",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 1,
+            "continentalness": 0.5,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:glass",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -1,
+            "continentalness": 0.5,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:factory",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 1,
+            "continentalness": -0.5,
+            "erosion": -0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:copper",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
+            "continentalness": -0.5,
+            "erosion": -0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:industrial",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -1,
+            "continentalness": -0.5,
+            "erosion": -0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:dump",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 1,
+            "continentalness": -0.5,
+            "erosion": -0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:bridge",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:walkway",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 1,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:hole",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:pit",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -1,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:red",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
+            "continentalness": -0.5,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:yellow",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 1,
+            "continentalness": -0.5,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:green",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
+            "continentalness": -0.5,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:blue",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -1,
+            "continentalness": -0.5,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:hell",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -19,10 +307,22 @@
           }
         },
         {
-          "biome": "nightmare:scar",
+          "biome": "nightmare:end",
           "parameters": {
-            "temperature": -0.1,
-            "humidity": 0.1,
+            "temperature": -1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "nightmare:overworld",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -1,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -33,33 +333,9 @@
         {
           "biome": "nightmare:rot",
           "parameters": {
-            "temperature": 0.1,
-            "humidity": 0.1,
+            "temperature": -1,
+            "humidity": -1,
             "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "nightmare:meat",
-          "parameters": {
-            "temperature": -0.1,
-            "humidity": -0.1,
-            "continentalness": -0.1,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "nightmare:rot",
-          "parameters": {
-            "temperature": -0.1,
-            "humidity": -0.1,
-            "continentalness": 0.1,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -69,11 +345,23 @@
         {
           "biome": "nightmare:poison",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
+            "temperature": 1,
+            "humidity": -1,
+            "continentalness": 1,
             "erosion": 0,
             "weirdness": 1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+         {
+          "biome": "nightmare:rust",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 1,
+            "continentalness": 1,
+            "erosion": 0,
+            "weirdness": -1,
             "depth": 0,
             "offset": 0
           }
@@ -81,9 +369,9 @@
         {
           "biome": "nightmare:fog",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
+            "temperature": 1,
+            "humidity": 1,
+            "continentalness": 1,
             "erosion": 0,
             "weirdness": -1,
             "depth": 0,

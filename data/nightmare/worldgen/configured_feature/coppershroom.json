@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:cut_copper"
+    },
+    "decor_state": {
+      "Name": "minecraft:exposed_copper"
+    },
+    "stem_state": {
+      "Name": "minecraft:oxidized_copper"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:deepslate_tiles"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:solid"
+    }
+  }
+}

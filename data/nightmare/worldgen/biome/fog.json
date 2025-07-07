@@ -16,6 +16,8 @@
   "carvers": [],
   "features": [
     [
-      "minecraft:ore_clay"
+      "minecraft:ore_clay",
+      "nightmare:craters",
+      "nightmare:pit"
     ]
   ]}

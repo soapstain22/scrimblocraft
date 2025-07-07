@@ -1,15 +1,15 @@
 {
     "structures": [
       {
-        "structure": "nightmare:factory",
+        "structure": "nightmare:temple",
         "weight": 1
       }
     ],
     "placement": {
       "type": "minecraft:random_spread",
       "salt": 200030100,
-      "spacing": 300,
-      "separation": 100
+      "spacing": 20,
+      "separation": 10
     }
   }
   

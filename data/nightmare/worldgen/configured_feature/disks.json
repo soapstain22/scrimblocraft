@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:disk",
+    "config": {
+      "state_provider": {
+        "fallback": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "rules": [
+          {
+            "if_true": {
+              "type": "minecraft:true"
+            },
+            "then": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:mossy_stone_bricks"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:mossy_cobblestone"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "target": {
+        "type": "minecraft:true"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 8
+      },
+      "half_height": 0
+    }
+  }
+  

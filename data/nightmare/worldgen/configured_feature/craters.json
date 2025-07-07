@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "minecraft:air"
+    },
+    "rim": {
+      "Name": "minecraft:deepslate"
+    },
+    "rim_size": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 4,
+      "min_inclusive": 1
+    },
+    "size": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 8,
+      "min_inclusive": 2
+    }
+  }
+}

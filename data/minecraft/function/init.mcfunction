@@ -1,2 +1,5 @@
 scoreboard objectives add haunt dummy "hauntedness"
 scoreboard objectives add hp health "hp"
+scoreboard objectives add fat food "fat"
+scoreboard objectives add level level "level"
+scoreboard objectives add xp xp "xp"

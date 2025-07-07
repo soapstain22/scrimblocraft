@@ -1,6 +1,9 @@
 {
-    "feature": "nightmare:relic",
+    "feature": "nightmare:geodehouse",
     "placement": [
+          {
+      "type": "minecraft:biome"
+    },
       {
         "type": "minecraft:rarity_filter",
         "chance": 24

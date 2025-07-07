@@ -1,0 +1,566 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_hide",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                "It's only as lucky as you think it is"
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "Rabbit Charm",
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:fall_damage_multiplier",
+                  "id": "poop",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "attribute": "minecraft:safe_fall_distance",
+                  "id": "peep",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:luck",
+                  "id": "minecraft:lala",
+                  "amount": -1,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:max_health",
+                  "id": "ijooi",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "Cursed skull",
+              "target": "item_name",
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                "Cursed?"
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:luck",
+                  "id": "daskdfns",
+                  "amount": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "haunt",
+                    "scale": -0.1
+                  },
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 1,
+          "quality": 2,
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cow_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wolf_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sheep_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key",
+          "weight": 1
+        }
+      ],
+      "functions": []
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "scale",
+                    "type": "scale",
+                    "amount": -0.1,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:dyed_color": 5091251
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "gnome pants"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "scale",
+                    "type": "scale",
+                    "amount": -0.1,
+                    "operation": "add_value",
+                    "slot": "armor"
+                  }
+                ],
+                "minecraft:dyed_color": 19967
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "gnome shirt"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "scale",
+                    "type": "scale",
+                    "amount": -0.1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:dyed_color": 0,
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:snout"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "gnome shoes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "scale",
+                    "type": "scale",
+                    "amount": -0.1,
+                    "operation": "add_value",
+                    "slot": "armor"
+                  }
+                ],
+                "minecraft:dyed_color": 16712451,
+                "minecraft:trim": {
+                  "material": "minecraft:redstone",
+                  "pattern": "minecraft:sentry"
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "trim"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "gnome hat"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "unbreakable",
+                    "trim"
+                  ]
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "sneaking_speed",
+                    "type": "sneaking_speed",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Wizod Leg"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "unbreakable",
+                    "trim"
+                  ]
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "jump_strength",
+                    "type": "jump_strength",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_total",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:trim": {
+                  "material": "minecraft:copper",
+                  "pattern": "minecraft:snout"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Wizod Sandals"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "unbreakable",
+                    "trim"
+                  ]
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "sneaking_speed",
+                    "type": "sneaking_speed",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Wizod Leg"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "unbreakable",
+                    "dyed_color",
+                    "trim"
+                  ]
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "block_interaction_range",
+                    "type": "block_interaction_range",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "armor"
+                  },
+                  {
+                    "id": "burning_time",
+                    "type": "burning_time",
+                    "amount": -0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "armor"
+                  },
+                  {
+                    "id": "sweeping_damage_ratio",
+                    "type": "sweeping_damage_ratio",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "armor"
+                  }
+                ],
+                "minecraft:dyed_color": 8913151,
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:bolt"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Wizod Robe"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "unbreakable"
+                  ]
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Wizod Stick"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        }
+        
+      ]
+    }
+  ]
+}

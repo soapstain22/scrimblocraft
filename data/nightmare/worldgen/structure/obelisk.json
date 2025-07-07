@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "nightmare:blood",
+    "biomes": "nightmare:pillars",
     "step": "top_layer_modification",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_box",

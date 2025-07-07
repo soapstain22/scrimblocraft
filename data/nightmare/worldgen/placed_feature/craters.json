@@ -1,0 +1,17 @@
+{
+  "feature": "nightmare:craters",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_relative_threshold_filter",
+      "heightmap": "WORLD_SURFACE",
+      "min_inclusive": 0,
+      "max_inclusive": 10
+    }
+  ]
+}

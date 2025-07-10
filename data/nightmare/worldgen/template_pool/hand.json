@@ -22,26 +22,6 @@
       }
     },
     {
-      "weight": 4,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "nightmare:isaac/mud/exit",
-        "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 4,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "nightmare:isaac/mud/large_l",
-        "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
       "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
@@ -67,6 +47,16 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "nightmare:isaac/mud/corner",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nightmare:isaac/mud/exit",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }

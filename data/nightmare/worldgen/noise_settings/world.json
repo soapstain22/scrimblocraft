@@ -403,7 +403,7 @@
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:stone_depth",
-                    "offset": 1,
+                    "offset": 0,
                     "surface_type": "floor",
                     "add_surface_depth": false,
                     "secondary_depth_range": 0
@@ -419,77 +419,44 @@
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:stone_depth",
-                    "offset": 2,
+                    "offset": 1,
                     "surface_type": "floor",
                     "add_surface_depth": true,
-                    "secondary_depth_range": 2
+                    "secondary_depth_range": 1
                   },
                   "then_run": {
-                    "type": "minecraft:condition",
-                    "if_true": {
-                      "type": "minecraft:y_above",
-                      "anchor": {
-                        "below_top": 150
-                      },
-                      "surface_depth_multiplier": 1,
-                      "add_stone_depth": false
-                    },
-                    "then_run": {
-                      "type": "minecraft:block",
-                      "result_state": {
-                        "Name": "minecraft:brown_terracotta"
-                      }
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:brown_terracotta"
                     }
                   }
                 },
                 {
                   "type": "minecraft:condition",
                   "if_true": {
-                    "type": "minecraft:y_above",
-                    "anchor": {
-                      "below_top": 250
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "ass",
+                    "true_at_and_below": {
+                      "absolute": 50
                     },
-                    "surface_depth_multiplier": 5,
-                    "add_stone_depth": true
+                    "false_at_and_above": {
+                      "below_top": 256
+                    }
                   },
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "minecraft:light_gray_terracotta"
+                      "Name": "minecraft:gray_terracotta"
                     }
+                  }
+                },
+                {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:light_gray_terracotta"
                   }
                 }
               ]
-            }
-          },
-          {
-            "type": "minecraft:condition",
-            "if_true": {
-              "type": "minecraft:noise_threshold",
-              "noise": "minecraft:erosion",
-              "min_threshold": 0.3,
-              "max_threshold": 0.4
-            },
-            "then_run": {
-              "type": "minecraft:block",
-              "result_state": {
-                "Name": "minecraft:deepslate"
-              }
-            }
-          },
-          {
-            "type": "minecraft:condition",
-            "if_true": {
-              "type": "minecraft:noise_threshold",
-              "noise": "minecraft:erosion",
-              "min_threshold": 0.4,
-              "max_threshold": 0.5
-            },
-            "then_run": {
-              "type": "minecraft:block",
-              "result_state": {
-                "Name": "minecraft:cobbled_deepslate"
-              }
             }
           },
           {
@@ -917,8 +884,7 @@
               "biome_is": [
                 "nightmare:factory",
                 "nightmare:copper",
-                "nightmare:industrial",
-                "nightmare:dump"
+                "nightmare:industrial"
               ]
             },
             "then_run": {
@@ -1023,6 +989,122 @@
                     "type": "minecraft:block",
                     "result_state": {
                       "Name": "minecraft:nether_quartz_ore"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "nightmare:pit"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "anchor": {
+                      "absolute": 40
+                    },
+                    "surface_depth_multiplier": 20,
+                    "add_stone_depth": true
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:air"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "nightmare:village"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "anchor": {
+                      "absolute": 100
+                    },
+                    "surface_depth_multiplier": 3,
+                    "add_stone_depth": true
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "air"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "ass",
+                    "true_at_and_below": {
+                      "absolute": 90
+                    },
+                    "false_at_and_above": {
+                      "absolute": 100
+                    }
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:dark_prismarine"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:prismarine"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "nightmare:spires"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:water",
+                    "offset": 10,
+                    "surface_depth_multiplier": -1,
+                    "add_stone_depth": true
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "air"
                     }
                   }
                 }

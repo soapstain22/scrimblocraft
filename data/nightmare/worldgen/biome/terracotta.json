@@ -64,5 +64,5 @@
 },
   "spawn_costs": {},
   "carvers": [],
-  "features": ["nightmare:terracottatree"]
+  "features": [["nightmare:terracottatree"]]
 }

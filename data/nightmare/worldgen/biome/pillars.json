@@ -4,15 +4,17 @@
   "has_precipitation": false,
   "effects": {
     "sky_color": 16777215,
-    "fog_color": 9327319,
-    "water_color": 6160367,
-    "water_fog_color": 6160367,
+    "fog_color": 16777215,
+    "water_color": 16777215,
+    "water_fog_color": 16777215,
     "grass_color": 16777215,
-    "foliage_color": 10263708,
+    "foliage_color": 16777215,
     "grass_color_modifier": "dark_forest"
   },
   "spawners": {},
   "spawn_costs": {},
   "carvers": [],
-  "features": []
+  "features": [[],[],[],[],["nightmare:pillar",
+"nightmare:pillardump",
+"nightmare:pillarfallen"]]
 }

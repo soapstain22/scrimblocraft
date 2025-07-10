@@ -13,46 +13,16 @@
   },
   "spawners": {"monster": [
       {
-        "type": "minecraft:spider",
+        "type": "minecraft:cave_spider",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
       },
       {
-        "type": "minecraft:zombie",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 95
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:skeleton",
+        "type": "minecraft:bogged",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
-      },
-      {
-        "type": "minecraft:creeper",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:slime",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:enderman",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 10
       },
       {
         "type": "minecraft:witch",
@@ -67,7 +37,6 @@
     [
       "minecraft:ore_clay",
       "minecraft:lake_lava_surface",
-      "minecraft:lake_lava_underground",
-      "nightmare:pillar"
+      "minecraft:lake_lava_underground"
     ]
   ]}

@@ -55,18 +55,6 @@
           }
         },
         {
-          "biome": "nightmare:city",
-          "parameters": {
-            "temperature": -1,
-            "humidity": -1,
-            "continentalness": 1,
-            "erosion": 0.5,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
           "biome": "nightmare:village",
           "parameters": {
             "temperature": -1,
@@ -193,54 +181,6 @@
             "humidity": 1,
             "continentalness": -0.5,
             "erosion": -0.5,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "nightmare:bridge",
-          "parameters": {
-            "temperature": -1,
-            "humidity": -1,
-            "continentalness": -0.5,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "nightmare:walkway",
-          "parameters": {
-            "temperature": -1,
-            "humidity": 1,
-            "continentalness": -0.5,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "nightmare:hole",
-          "parameters": {
-            "temperature": -1,
-            "humidity": -1,
-            "continentalness": -0.5,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "nightmare:pit",
-          "parameters": {
-            "temperature": 1,
-            "humidity": -1,
-            "continentalness": -0.5,
-            "erosion": 0,
             "weirdness": 0,
             "depth": 0,
             "offset": 0

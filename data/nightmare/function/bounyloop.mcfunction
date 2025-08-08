@@ -8,12 +8,15 @@ execute as @a if score @s teamkillblue matches 1.. run scoreboard players remove
 ##red killed
 #execute as @a if score @s teamkillred matches 1.. if entity @s[team=wanted] run function nightmare:scrungleremove {count:1}
 #execute as @a if score @s teamkillred matches 1.. if entity @s[team=cop] run function nightmare:scrungleadd {count:1}
+execute as @a if score @s teamkillred matches 1.. run scoreboard players add @s wantedlevel 1
 execute as @a if score @s teamkillred matches 1.. run scoreboard players remove @s teamkillred 1
 
 ##neutral killed
 execute as @a if score @s teamkillneutral matches 1.. run team join wanted @s
 execute as @a if score @s teamkillneutral matches 1.. if entity @s[team=cop] run function nightmare:scrungleremove {count:2}
 execute as @a if score @s teamkillneutral matches 1.. run tellraw @s "you are now wanted for killing a civillian."
+execute as @a if score @s teamkillneutral matches 1.. run scoreboard players add @s wantedlevel 1
+
 execute as @a if score @s teamkillneutral matches 1.. run scoreboard players remove @s teamkillneutral 1
 
 ##neutral killed

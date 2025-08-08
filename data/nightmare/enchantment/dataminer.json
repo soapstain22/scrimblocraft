@@ -1,0 +1,206 @@
+{
+  "description": "Dataminer",
+  "supported_items": "#minecraft:pickaxes",
+  "primary_items": "#minecraft:pickaxes",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "requirements": {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "#minecraft:logs"
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:replace_block",
+          "block_state": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:oak_log"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:dark_oak_log"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:acacia_log"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:birch_log"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:cherry_log"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:jungle_log"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:mangrove_log"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pale_oak_log"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:spruce_log"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:crimson_stem"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:warped_stem"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:replace_block",
+          "block_state": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:diorite"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:andesite"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "stone"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:deepslate"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:granite"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:tuff"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:dripstone_block"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:calcite"
+                }
+              }
+            ]
+          },
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:diorite",
+              "minecraft:andesite",
+              "stone",
+              "minecraft:deepslate",
+              "minecraft:granite",
+              "minecraft:tuff",
+              "minecraft:dripstone_block",
+              "minecraft:calcite"
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:block",
+            "block_state": {
+              "Name": "minecraft:barrier"
+            }
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box",
+            "offset": 1,
+            "scale": 1
+          },
+          "vertical_position": {
+            "type": "in_bounding_box",
+            "offset": 1,
+            "scale": 1
+          },
+          "horizontal_velocity": {
+            "base": 1
+          },
+          "vertical_velocity": {
+            "base": 1
+          },
+          "speed": 1
+        }
+      }
+    ]
+  }
+}

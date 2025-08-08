@@ -1,0 +1,3 @@
+execute store result score arc a run random value 1..9
+kill @n[type=minecraft:text_display,distance=0..5]
+summon text_display ~ ~2.2 ~1.6 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},text:[{"color":"white","score":{"name":"arc","objective":"b"}},{"color":"gray","text":"="},{"color":"yellow","score":{"name":"arc","objective":"a"}}]}

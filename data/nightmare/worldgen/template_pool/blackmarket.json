@@ -1,0 +1,54 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nightmare:blackmarket/hall/straight",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nightmare:blackmarket/hall/t",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nightmare:blackmarket/shop/casino",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nightmare:blackmarket/room",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nightmare:blackmarket/room",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

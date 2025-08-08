@@ -5,7 +5,7 @@
       "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
+        "projection": "rigid",
         "location": "nightmare:purpur_place",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"

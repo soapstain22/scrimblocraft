@@ -3,13 +3,17 @@
       {
         "structure": "nightmare:dioriteman",
         "weight": 1
+      },
+            {
+        "structure": "nightmare:dioriteman",
+        "weight": 1
       }
     ],
     "placement": {
       "type": "minecraft:random_spread",
       "salt": 200030100,
-      "spacing": 50,
-      "separation": 20
+      "spacing": 10,
+      "separation": 5
     }
   }
   

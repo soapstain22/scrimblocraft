@@ -6,6 +6,58 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:large_fern",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "fern helmet that when you put on it plays ender dragon death sound",
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                "i love minecraft"
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:can_place_on": {},
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:entity.ender_dragon.death"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "I love lemonade!"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                "I love lemonade!"
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:rabbit_hide",
           "weight": 1,
           "functions": [
@@ -95,28 +147,31 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:luck",
-                  "id": "daskdfns",
-                  "amount": {
-                    "type": "minecraft:score",
-                    "target": "this",
-                    "score": "haunt",
-                    "scale": -0.1
-                  },
+                  "attribute": "minecraft:step_height",
+                  "id": "jknsdnjsdsjnidsfjn",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:jump_strength",
+                  "id": "lol",
+                  "amount": -3,
                   "operation": "add_value",
                   "slot": "mainhand"
                 }
               ],
+              "replace": true,
               "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Scringlo Apparatus"
+              }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:trident",
-          "weight": 1,
-          "quality": 2,
-          "functions": []
         },
         {
           "type": "minecraft:item",
@@ -153,22 +208,6 @@
           "weight": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:trial_key",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:map",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
           "type": "item",
           "weight": 1,
           "name": "minecraft:leather_leggings",
@@ -183,10 +222,10 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "scale",
+                    "id": "feces",
                     "type": "scale",
                     "amount": -0.1,
-                    "operation": "add_value",
+                    "operation": "add_multiplied_base",
                     "slot": "legs"
                   }
                 ],
@@ -218,10 +257,10 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "scale",
+                    "id": "helo",
                     "type": "scale",
                     "amount": -0.1,
-                    "operation": "add_value",
+                    "operation": "add_multiplied_base",
                     "slot": "armor"
                   }
                 ],
@@ -254,10 +293,10 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "scale",
+                    "id": "funny",
                     "type": "scale",
                     "amount": -0.1,
-                    "operation": "add_value",
+                    "operation": "add_multiplied_base",
                     "slot": "feet"
                   }
                 ],
@@ -292,10 +331,10 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "scale",
+                    "id": "pkjhhi",
                     "type": "scale",
                     "amount": -0.1,
-                    "operation": "add_value",
+                    "operation": "add_multiplied_base",
                     "slot": "armor"
                   }
                 ],
@@ -343,6 +382,13 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:attribute_modifiers": [
                   {
+                    "type": "minecraft:flying_speed",
+                    "id": "lala",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "legs"
+                  },
+                  {
                     "id": "sneaking_speed",
                     "type": "sneaking_speed",
                     "amount": 0.1,
@@ -389,11 +435,24 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:attribute_modifiers": [
                   {
+                    "type": "minecraft:max_health",
+                    "id": "ojndjnocdf",
+                    "amount": 2,
+                    "operation": "add_value"
+                  },
+                  {
                     "id": "jump_strength",
                     "type": "jump_strength",
                     "amount": 0.1,
                     "operation": "add_multiplied_total",
                     "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "klmsdklad",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "chest"
                   }
                 ],
                 "minecraft:trim": {
@@ -440,6 +499,12 @@
                     "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:block_interaction_range",
+                    "id": "doodoo",
+                    "amount": 1,
+                    "operation": "add_value"
                   }
                 ],
                 "minecraft:trim": {
@@ -501,6 +566,20 @@
                     "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "slot": "armor"
+                  },
+                  {
+                    "type": "minecraft:movement_efficiency",
+                    "id": "s",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "armor"
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "armr",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "chest"
                   }
                 ],
                 "minecraft:dyed_color": 8913151,
@@ -552,9 +631,294 @@
               "target": "item_name"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:ambient.cave",
+                  "camera_overlay": "minecraft:item/chicken"
+                },
+                "!minecraft:can_place_on": {},
+                "minecraft:item_name": "jumpscare chicken",
+                "minecraft:item_model": "minecraft:cooked_chicken"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                "Stop eating pills off the floor"
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "The pill",
+              "target": "item_name",
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 3,
+                  "animation": "toot_horn",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:wither",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ],
+                      "probability": 0.1
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:speed",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ],
+                      "probability": 0.1
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:luck",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ],
+                      "probability": 0.1
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:resistance",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ],
+                      "probability": 0.1
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:strength",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ],
+                      "probability": 0.1
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:haste",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ],
+                      "probability": 0.1
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:unluck",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ],
+                      "probability": 0.1
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:mining_fatigue",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ],
+                      "probability": 0.1
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:blindness",
+                          "amplifier": 1,
+                          "duration": -1
+                        }
+                      ],
+                      "probability": 0.1
+                    },
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "minecraft:ambient.cave"
+                    }
+                  ]
+                }
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_leaves",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:follow_range",
+                    "id": "hide",
+                    "amount": -0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "head",
+                    "display": {
+                      "type": "default"
+                    }
+                  }
+                ],
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:block.deadbush.idle",
+                  "camera_overlay": "minecraft:block/birch_leaves",
+                  "can_be_sheared": true,
+                  "shearing_sound": "minecraft:entity.snow_golem.shear"
+                },
+                "!minecraft:can_place_on": {}
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "bush hat"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Put it on yo head"
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Incredible Flying Brick"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "swappable": true,
+                  "equip_on_interact": true
+                },
+                "minecraft:glider": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:flying_speed",
+                    "id": "flight",
+                    "amount": -0.25,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Mining helmet",
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:block_break_speed",
+                  "id": "block",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:mining_efficiency",
+                  "id": "miner",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 16774912,
+                "minecraft:trim": {
+                  "material": "minecraft:quartz",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
         }
-        
-      ]
+      ],
+      "functions": []
     }
-  ]
+  ],
+  "functions": []
 }

@@ -63,5 +63,18 @@
     ]},
   "spawn_costs": {},
   "carvers": [],
-  "features": []
-}
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+    ],
+    [],
+    [
+      "minecraft:spring_lava"
+    ]
+  ]}

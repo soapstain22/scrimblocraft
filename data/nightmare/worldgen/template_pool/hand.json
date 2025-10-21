@@ -2,21 +2,11 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 5,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:hand",
-        "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 5,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "nightmare:hand/base",
+        "location": "nightmare:hand/top",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
@@ -26,10 +16,20 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:hand/arm",
+        "location": "nightmare:hand/mid",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
-    }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nightmare:hand/base",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    } 
   ]
 }

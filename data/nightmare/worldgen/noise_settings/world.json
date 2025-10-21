@@ -46,6 +46,7 @@
     "depth": "minecraft:overworld/depth",
     "ridges": "minecraft:overworld/ridges",
     "initial_density_without_jaggedness": 0,
+    "preliminary_surface_level": "minecraft:overworld/caves/entrances",
     "final_density": {
       "type": "minecraft:min",
       "argument1": {
@@ -642,8 +643,7 @@
                           "result_state": {
                             "Name": "minecraft:oak_planks"
                           }
-                        },
-                        "": "minecraft:condition"
+                        }
                       },
                       {
                         "type": "minecraft:condition",
@@ -658,8 +658,7 @@
                           "result_state": {
                             "Name": "minecraft:cobblestone"
                           }
-                        },
-                        "": "minecraft:condition"
+                        }
                       },
                       {
                         "type": "minecraft:condition",
@@ -674,8 +673,7 @@
                           "result_state": {
                             "Name": "minecraft:dirt"
                           }
-                        },
-                        "": "minecraft:condition"
+                        }
                       }
                     ]
                   }

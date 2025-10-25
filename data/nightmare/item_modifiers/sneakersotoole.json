@@ -1,0 +1,3545 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 16711680
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 16711935
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 255
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 65535
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 65280
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 16776960
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 13054152
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 16749824
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 16711935
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 15059258
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 65437
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 14473933
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 65437
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 10904031
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:dyed_color": 14046813
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:armor",
+            "id": "g",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -1,
+              "max": 4
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:armor_toughness",
+            "id": "b",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -2,
+              "max": 2
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:attack_damage",
+            "id": "c",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:attack_knockback",
+            "id": "d",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -2,
+              "max": 2
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:block_break_speed",
+            "id": "e",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:block_interaction_range",
+            "id": "f",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -2,
+              "max": 2
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:burning_time",
+            "id": "h",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:camera_distance",
+            "id": "i",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "j",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -2,
+              "max": 2
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:explosion_knockback_resistance",
+            "id": "k",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -2,
+              "max": 2
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:fall_damage_multiplier",
+            "id": "l",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:flying_speed",
+            "id": "m",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -1,
+              "max": 1
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:follow_range",
+            "id": "n",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -1,
+              "max": 1
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:gravity",
+            "id": "o",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.1,
+              "max": 1
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:jump_strength",
+            "id": "p",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 1
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:knockback_resistance",
+            "id": "aqweqw",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:luck",
+            "id": "weae",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -2,
+              "max": 2
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:max_absorption",
+            "id": "aad",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -2,
+              "max": 2
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:max_health",
+            "id": "fgea",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -2,
+              "max": 10
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:mining_efficiency",
+            "id": "jsfnva",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:movement_efficiency",
+            "id": "aaejnf",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:movement_speed",
+            "id": "aewiopn",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:oxygen_bonus",
+            "id": "werkonpa",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:oxygen_bonus",
+            "id": "wkeopna",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:safe_fall_distance",
+            "id": "aoqpkop",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:scale",
+            "id": "anosjvnoi",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.2,
+              "max": 0.2
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:sneaking_speed",
+            "id": "anpwepnf",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:submerged_mining_speed",
+            "id": "aownefnjoweg",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:tempt_range",
+            "id": "awonpnop",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:waypoint_receive_range",
+            "id": "nowjefoa",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:waypoint_transmit_range",
+            "id": "a",
+            "amount": {
+              "type": "minecraft:uniform",
+              "min": -0.5,
+              "max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ],
+        "replace": false,
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:sequence",
+        "functions": [
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:diamond",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:iron",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:lapis",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:redstone",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:resin",
+                "pattern": "minecraft:dune"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:diamond",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:iron",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:lapis",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:redstone",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:resin",
+                "pattern": "minecraft:eye"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:diamond",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:iron",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:lapis",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:redstone",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:trim": {
+                "material": "minecraft:resin",
+                "pattern": "minecraft:coast"
+              }
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:flow"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:raiser"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:rib"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:sentry"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:shaper"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:silence"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:snout"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:spire"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:tide"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:vex"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:ward"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:wayfinder"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:diamond",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:emerald",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:quartz",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:resin",
+            "pattern": "minecraft:wild"
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      }
+    ]
+  }
+]

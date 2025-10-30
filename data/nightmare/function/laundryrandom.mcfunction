@@ -50,4 +50,4 @@ execute if data storage patterns {rand:13} run data modify storage patterns hold
 execute if data storage patterns {rand:14} run data modify storage patterns hold.patterns[] merge value {pattern:"minecraft:stripe_middle"}
 execute if data storage patterns {rand:15} run data modify storage patterns hold.patterns[] merge value {pattern:"minecraft:rhombus"}
 execute if data storage patterns {rand:16} run data modify storage patterns hold.patterns[] merge value {pattern:"minecraft:cross"}
-#data modify block 0 0 0 patterns set from storage minecraft:patterns hold.patterns
+#fuck you

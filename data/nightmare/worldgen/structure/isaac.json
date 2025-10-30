@@ -37,11 +37,11 @@
     ],
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "bury",
   "start_pool": "nightmare:isaac",
   "size": 10,
   "start_height": {
-    "absolute": -30
+    "absolute": -50
   },
   "start_jigsaw_name": "minecraft:mud",
   "project_start_to_heightmap": "WORLD_SURFACE",

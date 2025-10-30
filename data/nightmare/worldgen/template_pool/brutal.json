@@ -46,7 +46,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:brutal/4",
+        "location": "nightmare:brutal/9",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }

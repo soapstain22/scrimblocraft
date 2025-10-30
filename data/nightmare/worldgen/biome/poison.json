@@ -11,7 +11,8 @@
     "foliage_color": 0,
     "grass_color_modifier": "dark_forest"
   },
-  "spawners": {"monster": [
+  "spawners": {
+    "monster": [
       {
         "type": "minecraft:cave_spider",
         "maxCount": 4,
@@ -30,13 +31,9 @@
         "minCount": 1,
         "weight": 5
       }
-    ]},
+    ]
+  },
   "spawn_costs": {},
   "carvers": [],
-  "features": [
-    [
-      "minecraft:ore_clay",
-      "minecraft:lake_lava_surface",
-      "minecraft:lake_lava_underground"
-    ]
-  ]}
+  "features": []
+}

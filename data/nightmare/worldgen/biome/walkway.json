@@ -63,6 +63,5 @@
     ]},
   "spawn_costs": {},
   "carvers": [],
-  "features": [      "minecraft:monster_room",
-      "minecraft:monster_room_deep"]
+  "features": []
 }

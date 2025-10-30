@@ -1,0 +1,60 @@
+{
+  "anvil_cost": 1,
+  "description": "Damocles",
+  "max_cost": {
+    "base": 51,
+    "per_level_above_first": 10
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 10,
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": {
+            "type": "minecraft:enchantment_level",
+            "amount": 1
+          }
+        },
+        "effect": {
+          "type": "minecraft:explode",
+          "damage_type": "minecraft:player_explosion",
+          "radius": {
+            "type": "minecraft:levels_squared",
+            "added": 2
+          },
+          "create_fire": false,
+          "block_interaction": "block",
+          "small_particle": {
+            "type": "minecraft:flash",
+            "color": 16775930
+          },
+          "large_particle": {
+            "type": "minecraft:flash",
+            "color": 16775930
+          },
+          "sound": "minecraft:entity.dragon_fireball.explode"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ],
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 2
+        }
+      }
+    ]
+  }
+}

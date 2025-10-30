@@ -5,7 +5,7 @@
   "spawn_overrides": {},
   "terrain_adaptation": "bury",
   "start_pool": "nightmare:blackmarket",
-  "size": 18,
+  "size": 9,
   "start_height": {
     "absolute": -40
   },

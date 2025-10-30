@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:nord/hall/0",
+        "location": "nightmare:wallbased/0",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
@@ -15,7 +15,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:nord/hall/a",
+        "location": "nightmare:wallbased/1",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
@@ -24,7 +24,16 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:nord/hall/b",
+        "location": "nightmare:wallbased/2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nightmare:wallbased/4",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
@@ -33,45 +42,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:nord/hall/c",
-        "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
-      }
-    },    {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "nightmare:nord/hall/d",
-        "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "nightmare:nord/hall/e",
-        "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
-      }
-    },
-  {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "nightmare:nord/room/1",
-        "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:empty"
-      }
-    },    {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "nightmare:nord/room/2",
+        "location": "nightmare:wallbased/3",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }

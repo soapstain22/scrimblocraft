@@ -1,0 +1,71 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bee_spawn_egg",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:entity_data": {
+									"id": "minecraft:mannequin",
+									"Motion": [
+										34,
+										0,
+										0
+									],
+									"Health": 1,
+									"Brain": {
+										"memories": {
+											"minecraft:home": {
+												"value": {
+													"pos": [
+														0,
+														0,
+														0
+													],
+													"dimension": "nightmare:nightmare"
+												}
+											},
+											"minecraft:job_site": {
+												"value": {
+													"pos": [
+														0,
+														0,
+														0
+													],
+													"dimension": "nightmare:nightmare"
+												}
+											},
+											"minecraft:visited_block_positions": {
+												"value": [
+													{
+														"pos": [
+															0,
+															0,
+															0
+														],
+														"dimension": "war:war"
+													}
+												]
+											}
+										}
+									}
+								}
+							},
+							"conditions": []
+						}
+					]
+				}
+			],
+			"functions": [],
+			"conditions": []
+		}
+	],
+	"functions": []
+}

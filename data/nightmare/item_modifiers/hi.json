@@ -1,0 +1,19 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:bucket_entity_data": {
+			"id": "minecraft:mannequin",
+			"Brain": {
+				"memories": {
+					"minecraft:is_in_water": {
+						"value": {}
+					},
+					"minecraft:attack_target": 0
+				}
+			},
+			"HuntingCooldown": 0,
+			"BucketVariantTag": 0
+		}
+	},
+	"conditions": []
+}

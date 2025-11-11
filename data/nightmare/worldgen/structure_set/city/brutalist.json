@@ -1,15 +1,15 @@
 {
     "structures": [
       {
-        "structure": "nightmare:palace",
+        "structure": "nightmare:sewer",
         "weight": 1
       }
     ],
     "placement": {
       "type": "minecraft:random_spread",
-      "salt": 200030100,
-      "spacing": 100,
-      "separation": 70
+      "salt": 10020043,
+      "spacing": 10,
+      "separation": 5
     }
   }
   

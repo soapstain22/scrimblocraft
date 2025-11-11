@@ -11,7 +11,7 @@
         "processors": "minecraft:empty"
       }
     },
-        {
+    {
       "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
@@ -20,7 +20,8 @@
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
-    },    {
+    },
+    {
       "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
@@ -40,12 +41,12 @@
         "processors": "minecraft:empty"
       }
     },
-        {
+    {
       "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:blackmarket/room",
+        "location": "nightmare:blackmarket/shop/locker",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }

@@ -1,15 +1,15 @@
 {
     "structures": [
       {
-        "structure": "nightmare:maze",
+        "structure": "nightmare:avalon/palace",
         "weight": 1
       }
     ],
     "placement": {
       "type": "minecraft:random_spread",
-      "salt": 1200023,
-      "spacing": 30,
-      "separation": 10
+      "salt": 200030100,
+      "spacing": 100,
+      "separation": 70
     }
   }
   

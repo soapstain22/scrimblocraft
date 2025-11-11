@@ -8,7 +8,7 @@
         "projection": "rigid",
         "location": "nightmare:obelisk",
         "override_liquid_settings": "ignore_waterlogging",
-        "processors": "cool:age"
+        "processors": "empty"
       }
     }
   ]

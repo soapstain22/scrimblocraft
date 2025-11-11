@@ -62,6 +62,6 @@
       }
     ]},
   "spawn_costs": {},
-  "carvers": [],
+  "carvers": ["nightmare:concrete"],
   "features": []
 }

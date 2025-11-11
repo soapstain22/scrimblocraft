@@ -2,31 +2,31 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:andestite/water",
+        "location": "nightmare:dungeon/room/core/a",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 1,
+      "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:andestite/a",
+        "location": "nightmare:dungeon/room/hall/a",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
-        {
-      "weight": 1,
+    {
+      "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:andestite/stairs",
+        "location": "nightmare:dungeon/room/core/d",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }

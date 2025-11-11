@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:andestite/water",
+        "location": "nightmare:stone/stonetower/bottom",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
@@ -16,17 +16,17 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:andestite/a",
+        "location": "nightmare:stone/stonetower/mid",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
-        {
+    {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:andestite/stairs",
+        "location": "nightmare:stone/stonetower/up",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }

@@ -5,13 +5,13 @@
     "spread": 1,
     "count": 13,
     "preferred_biomes": [],
-    "salt": 1455,
+    "salt": 14555,
     "frequency_reduction_method": "legacy_type_1",
     "frequency": 1
   },
   "structures": [
     {
-      "structure": "nightmare:moai",
+      "structure": "nightmare:random/moai",
       "weight": 1
     }
   ]

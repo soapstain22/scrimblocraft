@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:temple/a",
+        "location": "nightmare:andestite/water",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
@@ -16,7 +16,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:temple/hall",
+        "location": "nightmare:andestite/a",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }

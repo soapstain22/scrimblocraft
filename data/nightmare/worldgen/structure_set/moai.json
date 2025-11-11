@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 2,
+    "spread": 1,
+    "count": 13,
+    "preferred_biomes": [],
+    "salt": 1455,
+    "frequency_reduction_method": "legacy_type_1",
+    "frequency": 1
+  },
+  "structures": [
+    {
+      "structure": "nightmare:moai",
+      "weight": 1
+    }
+  ]
+}

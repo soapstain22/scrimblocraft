@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "nightmare:ruins",
+  "biomes": "nightmare:village",
   "step": "top_layer_modification",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",

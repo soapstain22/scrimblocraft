@@ -1,19 +1,13 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": "nightmare:city",
-  "step": "top_layer_modification",
+  "step": "underground_structures",
   "spawn_overrides": {},
-  "terrain_adaptation": "beard_box",
+  "terrain_adaptation": "bury",
   "start_pool": "nightmare:test",
   "size": 20,
   "start_height": {
-    "type": "minecraft:uniform",
-    "min_inclusive": {
-      "above_bottom": 30
-    },
-    "max_inclusive": {
-      "below_top": 5
-    }
+    "absolute": -16
   },
   "project_start_to_heightmap": "WORLD_SURFACE",
   "max_distance_from_center": 80,

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "nightmare:chasm",
+  "terrain_adaptation": "none",
+  "project_start_to_heightmap": "MOTION_BLOCKING",
+  "max_distance_from_center": 116,
+  "size": 1,
+  "spawn_overrides": {},
+  "start_height": {
+      "absolute": -45
+
+  },
+  "start_pool": "nightmare:mars",
+  "step": "top_layer_modification",
+  "use_expansion_hack": false
+}

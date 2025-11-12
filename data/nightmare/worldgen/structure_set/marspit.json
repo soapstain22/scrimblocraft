@@ -1,15 +1,15 @@
 {
     "structures": [
       {
-        "structure": "nightmare:random/tower",
+        "structure": "nightmare:marspit",
         "weight": 1
       }
     ],
     "placement": {
       "type": "minecraft:random_spread",
-      "salt": 10020043,
+      "salt": 34306,
       "spacing": 10,
-      "separation": 5
+      "separation": 3
     }
   }
   

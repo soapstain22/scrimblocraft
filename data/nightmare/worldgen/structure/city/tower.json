@@ -1,19 +1,25 @@
 {
-    "type": "minecraft:jigsaw",
-    "biomes": "nightmare:city",
-    "step": "top_layer_modification",
-    "spawn_overrides": {},
-    "terrain_adaptation": "beard_box",
-    "start_pool": "nightmare:tower",
-  "start_jigsaw_name": "minecraft:down",
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "nightmare:city"
 
-    "size": 1,
-    "start_height": {
+  ],
+  "step": "top_layer_modification",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "start_pool": "nightmare:tower",
+  "size": 20,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
       "absolute": 0
     },
-    "project_start_to_heightmap": "WORLD_SURFACE",
-    "max_distance_from_center": 80,
-    "use_expansion_hack": false,
-    "liquid_settings": "ignore_waterlogging"
-  }
-  
+    "max_inclusive": {
+      "absolute": 1
+    }
+  },
+  "project_start_to_heightmap": "MOTION_BLOCKING",
+  "max_distance_from_center": 50,
+  "use_expansion_hack": false,
+  "liquid_settings": "ignore_waterlogging"
+}

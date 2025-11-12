@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "nightmare:city",
+  "biomes": "nightmare:ruins",
   "step": "top_layer_modification",
   "spawn_overrides": {},
   "terrain_adaptation": "bury",

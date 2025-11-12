@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["nightmare:pillars","nightmare:columns"],
+    "biomes": ["nightmare:terracotta","nightmare:concrete","nightmare:wool","nightmare:overworld"],
     "step": "top_layer_modification",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_box",

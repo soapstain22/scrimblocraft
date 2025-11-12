@@ -1,14 +1,19 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": ["nightmare:ruins","nightmare:poison"],
+  "biomes": "nightmare:city",
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "terrain_adaptation": "none",
-  "start_pool": "nightmare:hand",
-  "start_jigsaw_name": "nightmare:hand/arm",
-  "size": 18,
+  "terrain_adaptation": "beard_box",
+  "start_pool": "nightmare:test",
+  "size": 20,
   "start_height": {
-    "absolute": -1
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "above_bottom": 30
+    },
+    "max_inclusive": {
+      "below_top": 5
+    }
   },
   "project_start_to_heightmap": "WORLD_SURFACE",
   "max_distance_from_center": 80,

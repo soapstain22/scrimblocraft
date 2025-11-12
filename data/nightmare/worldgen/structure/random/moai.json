@@ -37,7 +37,7 @@
     ],
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "terrain_adaptation": "bury",
+  "terrain_adaptation": "beard_thin",
   "start_pool": "nightmare:moai",
   "size": 1,
     "start_height": {

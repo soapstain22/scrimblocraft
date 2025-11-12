@@ -1,0 +1,16 @@
+{
+	"structures": [
+		{
+			"structure": "nightmare:city/test",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"spacing": 21,
+		"separation": 13,
+		"spread_type": "linear",
+		"salt": 13135,
+		"frequency": 0.1
+	}
+}

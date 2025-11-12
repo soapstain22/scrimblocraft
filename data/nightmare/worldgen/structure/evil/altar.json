@@ -1,11 +1,11 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "nightmare:rainbow",
+    "biomes": "nightmare:poison",
     "step": "top_layer_modification",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_box",
-    "start_pool": "nightmare:tiles",
-    "size": 20,
+    "start_pool": "nightmare:altar",
+    "size": 10,
     "start_height": {
       "absolute": 0
     },

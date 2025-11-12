@@ -14,7 +14,7 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": [],
-  "features": [[],[],[],[],["nightmare:pillar",
-"nightmare:pillardump",
+  "features": [[],[],[],[],["nightmare:trollball",
+"nightmare:quartzpillar",
 "nightmare:pillarfallen"]]
 }

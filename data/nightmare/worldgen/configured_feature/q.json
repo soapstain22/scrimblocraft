@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "up",
+    "allowed_placement": {
+      "type": "minecraft:unobstructed"
+    },
+    "prioritize_tip": true,
+    "layers": [
+      {
+        "height": 6,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:quartz_pillar"
+          }
+        }
+      }
+    ]
+  }
+}

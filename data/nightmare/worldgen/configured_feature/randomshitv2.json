@@ -1,0 +1,170 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 4,
+		"xz_spread": 5,
+		"y_spread": 5,
+		"feature": {
+			"feature": {
+				"config": {
+					"to_place": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:acacia_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:bamboo_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:birch_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:cherry_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:crimson_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:dark_oak_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:jungle_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:mangrove_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:oak_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:pale_oak_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:spruce_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:warped_planks"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:mossy_cobblestone"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "stone"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "sandstone"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "granite"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:cobbled_deepslate"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "deepslate"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "gravel"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "dirt"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "mud"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:andesite"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:diorite"
+								}
+							},
+							{
+								"weight": 0,
+								"data": {
+									"Name": "minecraft:granite"
+								}
+							}
+						]
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"placement": [
+				{
+					"type": "minecraft:rarity_filter",
+					"chance": 1
+				}
+			]
+		}
+	}
+}

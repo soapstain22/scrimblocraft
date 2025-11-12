@@ -1,0 +1,8 @@
+{
+	"feature": "nightmare:crap",
+	"placement": [
+		{
+			"type": "minecraft:in_square"
+		}
+	]
+}

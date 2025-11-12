@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:spline",
 	"spline": {
-		"coordinate": "minecraft:overworld/continents",
+		"coordinate": "minecraft:overworld/erosion",
 		"points": [
 			{
 				"location": -1,
@@ -10,9 +10,9 @@
 					"coordinate": {
 						"type": "minecraft:y_clamped_gradient",
 						"from_y": -100,
-						"to_y": 100,
+						"to_y": 200,
 						"from_value": 1,
-						"to_value": -1
+						"to_value": -2
 					},
 					"points": [
 						{
@@ -29,14 +29,14 @@
 				}
 			},
 			{
-				"location": 1,
+				"location": 0,
 				"derivative": 0,
 				"value": {
 					"coordinate": {
 						"type": "minecraft:y_clamped_gradient",
-						"from_y": -100,
-						"to_y": 100,
-						"from_value": -1,
+						"from_y": -200,
+						"to_y": 300,
+						"from_value": -2,
 						"to_value": 1
 					},
 					"points": [

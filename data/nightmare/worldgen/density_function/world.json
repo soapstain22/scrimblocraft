@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:spline",
+	"spline": {
+		"coordinate": "minecraft:overworld/continents",
+		"points": [
+			{
+				"location": -1,
+				"derivative": 0,
+				"value": {
+					"coordinate": {
+						"type": "minecraft:add",
+						"argument1": {
+							"type": "minecraft:y_clamped_gradient",
+							"from_y": -200,
+							"to_y": 100,
+							"from_value": 1,
+							"to_value": 0
+						},
+						"argument2": {
+							"type": "minecraft:quarter_negative",
+							"argument": "nightmare:nightmare"
+						}
+					},
+					"points": [
+						{
+							"location": -1,
+							"derivative": 0,
+							"value": -3
+						},
+						{
+							"location": 1,
+							"derivative": 0,
+							"value": 3.5
+						}
+					]
+				}
+			},
+			{
+				"location": 0.6,
+				"derivative": 0,
+				"value": {
+					"coordinate": {
+						"type": "minecraft:y_clamped_gradient",
+						"from_y": -100,
+						"to_y": 500,
+						"from_value": -1,
+						"to_value": 4
+					},
+					"points": [
+						{
+							"location": -1,
+							"derivative": 0,
+							"value": 1
+						},
+						{
+							"location": 1,
+							"derivative": 0,
+							"value": -1
+						}
+					]
+				}
+			},
+			{
+				"location": 1,
+				"derivative": 0,
+				"value": {
+					"coordinate": "nightmare:flattish",
+					"points": [
+						{
+							"location": -1,
+							"derivative": 0,
+							"value": -1
+						},
+						{
+							"location": 1,
+							"derivative": 0,
+							"value": 1
+						}
+					]
+				}
+			}
+		]
+	}
+}

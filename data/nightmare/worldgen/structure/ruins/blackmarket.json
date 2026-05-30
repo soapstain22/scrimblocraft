@@ -1,7 +1,7 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": "nightmare:ruins",
-  "step": "top_layer_modification",
+  "step": "strongholds",
   "spawn_overrides": {},
   "terrain_adaptation": "bury",
   "start_pool": "nightmare:blackmarket",

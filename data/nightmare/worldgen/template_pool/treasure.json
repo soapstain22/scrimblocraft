@@ -6,7 +6,17 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:temple/a",
+        "location": "nightmare:treasure/gnome",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "nightmare:spawner/fake",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
@@ -16,7 +26,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "nightmare:treasure/gnome",
+        "location": "nightmare:spawner/squatter",
         "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }

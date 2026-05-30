@@ -78,8 +78,10 @@
       "nightmare:coppertree",
       "nightmare:coppershroom"
     ],
-    [],
-    [],
+    [      "nightmare:coppershroom"
+],
+    [      "nightmare:coppershroom"
+],
     [
       "nightmare:coppertree"
     ]

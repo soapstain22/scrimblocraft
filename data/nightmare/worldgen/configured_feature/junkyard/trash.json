@@ -5,123 +5,1116 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
+          "weight": 0.1,
+          "data": {
+            "Name": "minecraft:netherite_block"
+          }
+        },
+        {
           "weight": 1,
+          "data": {
+            "Name": "minecraft:beacon"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dragon_egg"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:diamond_ore"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:deepslate_diamond_ore"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:emerald_ore"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:deepslate_emerald_ore"
+          }
+
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:reinforced_deepslate"
+          }
+        },
+        {
+          "weight": 0.1,
+          "data": {
+            "Name": "minecraft:diamond_block"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:emerald_block"
+          }
+        },
+        {
+          "weight": 0.1,
+          "data": {
+            "Name": "minecraft:ancient_debris"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:lodestone"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:conduit"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:budding_amethyst"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:gilded_blackstone"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:respawn_anchor"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:crying_obsidian"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:ender_chest"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:enchanting_table"
+          }
+        },
+        {
+          "weight": 4,
+          "data": {
+            "Name": "minecraft:jukebox"
+          }
+        },
+        {
+          "weight": 4,
+          "data": {
+            "Name": "minecraft:sculk_catalyst"
+          }
+        },
+        {
+          "weight": 4,
+          "data": {
+            "Name": "minecraft:bell"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:gold_ore"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:deepslate_gold_ore"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:nether_gold_ore"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:lapis_ore"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:deepslate_lapis_ore"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:redstone_ore"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:deepslate_redstone_ore"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:sculk_shrieker"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:calibrated_sculk_sensor"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:iron_ore"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:deepslate_iron_ore"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:copper_ore"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:deepslate_copper_ore"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:coal_ore"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:deepslate_coal_ore"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:nether_quartz_ore"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:obsidian"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:sponge"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:wet_sponge"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:turtle_egg"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:sniffer_egg"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:amethyst_block"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:glowstone"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:sea_lantern"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:magma_block"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:shroomlight"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:ochre_froglight"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:verdant_froglight"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:pearlescent_froglight"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_copper_block"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_exposed_copper"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_weathered_copper"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_oxidized_copper"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_cut_copper"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_exposed_cut_copper"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_weathered_cut_copper"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_oxidized_cut_copper"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_exposed_chiseled_copper"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_weathered_chiseled_copper"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:waxed_oxidized_chiseled_copper"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:blue_ice"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:dripstone_block"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:tuff"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:bone_block"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:hay_block"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:dried_kelp_block"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:moss_block"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:azalea"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:polished_andesite"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:polished_diorite"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:polished_granite"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:polished_basalt"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:polished_blackstone"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:polished_tuff"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:chiseled_stone_bricks"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:chiseled_deepslate"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:chiseled_nether_bricks"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:chiseled_polished_blackstone"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:chiseled_quartz_block"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:chiseled_red_sandstone"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:chiseled_sandstone"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:chiseled_tuff"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:chiseled_tuff_bricks"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:smooth_stone"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:infested_chiseled_stone_bricks"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:infested_cobblestone"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:infested_cracked_stone_bricks"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:infested_deepslate"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:infested_mossy_stone_bricks"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:infested_stone"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:infested_stone_bricks"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:redstone_block"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:coal_block"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:raw_iron_block"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:raw_copper_block"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:raw_gold_block"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:lantern"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:soul_lantern"
+          }
+        
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:sculk"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:tinted_glass"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:honeycomb_block"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:bee_nest"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:beehive"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:chorus_plant"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:chorus_flower"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:bamboo_mosaic"
+          }
+        },
+        {
+          "weight": 15,
           "data": {
             "Name": "minecraft:crafter"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
           "data": {
             "Name": "minecraft:furnace"
           }
         },
         {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_stone_bricks"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_deepslate_tiles"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_polished_blackstone_bricks"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_deepslate_bricks"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cobweb"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:damaged_anvil"
-          }
-        },
-        {
-          "weight": 1,
+          "weight": 15,
           "data": {
             "Name": "minecraft:dropper"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
           "data": {
             "Name": "minecraft:dispenser"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
           "data": {
             "Name": "minecraft:crafting_table"
           }
         },
         {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:iron_bars"
-          }
-        },
-        {
-          "weight": 1,
+          "weight": 15,
           "data": {
             "Name": "minecraft:composter"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
           "data": {
             "Name": "minecraft:smoker"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
           "data": {
             "Name": "minecraft:blast_furnace"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
           "data": {
-            "Name": "minecraft:cartography_table"
+            "Name": "minecraft:hopper"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
           "data": {
-            "Name": "minecraft:fletching_table"
+            "Name": "minecraft:cauldron"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
           "data": {
-            "Name": "minecraft:smithing_table"
+            "Name": "minecraft:grindstone"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:stonecutter"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:loom"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:barrel"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:campfire"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:note_block"
+          }
+        },
+        {
+          "weight": 15,
           "data": {
             "Name": "minecraft:jack_o_lantern"
           }
         },
         {
-          "weight": 1,
+          "weight": 15,
           "data": {
-            "Name": "minecraft:hopper"
+            "Name": "minecraft:daylight_detector"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:lightning_rod"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:target"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:brewing_stand"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:cartography_table"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:fletching_table"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:smithing_table"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:cake"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:melon"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:pumpkin"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:iron_bars"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:damaged_anvil"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:netherrack"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:crimson_nylium"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:warped_nylium"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:clay"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:ice"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:red_mushroom_block"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:brown_mushroom_block"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:mushroom_stem"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:white_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:orange_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:magenta_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:light_blue_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:yellow_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:lime_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:pink_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:gray_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:light_gray_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:cyan_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:purple_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:blue_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:brown_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:green_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:red_terracotta"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:black_terracotta"
+          }
+        },
+
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:cracked_deepslate_tiles"
+          }
+        },
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:cracked_polished_blackstone_bricks"
+          }
+        },
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:cracked_deepslate_bricks"
+          }
+        },
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:coarse_dirt"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:podzol"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:mycelium"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:soul_sand"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:soul_soil"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:dead_bush"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_brain_coral"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_brain_coral_block"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_bubble_coral"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_bubble_coral_block"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_fire_coral"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_fire_coral_block"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_horn_coral"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_horn_coral_block"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_tube_coral"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:dead_tube_coral_block"
           }
         }
       ]

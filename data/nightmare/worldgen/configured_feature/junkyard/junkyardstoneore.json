@@ -1,130 +1,27 @@
 {
-  "type": "minecraft:block_pile",
+  "type": "minecraft:ore",
   "config": {
-    "state_provider": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:crafter"
-          }
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:dirt"
         },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:furnace"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_stone_bricks"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_deepslate_tiles"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_polished_blackstone_bricks"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_deepslate_bricks"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cobweb"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:damaged_anvil"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:dropper"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:dispenser"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:crafting_table"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:iron_bars"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:composter"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:smoker"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:blast_furnace"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cartography_table"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:fletching_table"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:smithing_table"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:jack_o_lantern"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:hopper"
-          }
+        "state": {
+          "Name": "minecraft:mossy_cobblestone"
         }
-      ]
-    }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:dirt"
+        },
+        "state": {
+          "Name": "minecraft:cobblestone"
+        }
+      }
+    ],
+    "size": 15,
+    "discard_chance_on_air_exposure": 0.1
   }
 }

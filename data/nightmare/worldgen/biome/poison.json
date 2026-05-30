@@ -35,5 +35,14 @@
   },
   "spawn_costs": {},
   "carvers": [],
-  "features": []
+  "features": [[],
+    [],
+    [],
+    [],
+    [
+      "nightmare:poisionlake",      "nightmare:poisiontree", "nightmare:poisiontumor",
+      "cool:shittytree"
+
+    ]
+  ]
 }

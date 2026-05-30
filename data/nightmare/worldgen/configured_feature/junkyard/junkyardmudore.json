@@ -1,130 +1,319 @@
 {
-  "type": "minecraft:block_pile",
+  "type": "minecraft:ore",
   "config": {
-    "state_provider": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:crafter"
-          }
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.2
         },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:furnace"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_stone_bricks"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_deepslate_tiles"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_polished_blackstone_bricks"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cracked_deepslate_bricks"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cobweb"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:damaged_anvil"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:dropper"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:dispenser"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:crafting_table"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:iron_bars"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:composter"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:smoker"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:blast_furnace"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:cartography_table"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:fletching_table"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:smithing_table"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:jack_o_lantern"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:hopper"
-          }
+        "state": {
+          "Name": "minecraft:coarse_dirt"
         }
-      ]
-    }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.18
+        },
+        "state": {
+          "Name": "minecraft:mud"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.15
+        },
+        "state": {
+          "Name": "minecraft:rooted_dirt"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.1
+        },
+        "state": {
+          "Name": "minecraft:gravel"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.1
+        },
+        "state": {
+          "Name": "minecraft:sand"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.08
+        },
+        "state": {
+          "Name": "minecraft:muddy_mangrove_roots"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.06
+        },
+        "state": {
+          "Name": "minecraft:podzol"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.06
+        },
+        "state": {
+          "Name": "minecraft:red_sand"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.05
+        },
+        "state": {
+          "Name": "minecraft:cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.04
+        },
+        "state": {
+          "Name": "minecraft:mycelium"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.04
+        },
+        "state": {
+          "Name": "minecraft:mossy_cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.04
+        },
+        "state": {
+          "Name": "minecraft:calcite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.04
+        },
+        "state": {
+          "Name": "minecraft:tuff"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.03
+        },
+        "state": {
+          "Name": "minecraft:andesite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.03
+        },
+        "state": {
+          "Name": "minecraft:diorite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.03
+        },
+        "state": {
+          "Name": "minecraft:granite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.03
+        },
+        "state": {
+          "Name": "minecraft:clay"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.03
+        },
+        "state": {
+          "Name": "minecraft:suspicious_sand"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.02
+        },
+        "state": {
+          "Name": "minecraft:dripstone_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.02
+        },
+        "state": {
+          "Name": "minecraft:suspicious_gravel"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.02
+        },
+        "state": {
+          "Name": "minecraft:moss_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.02
+        },
+        "state": {
+          "Name": "minecraft:bone_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.01
+        },
+        "state": {
+          "Name": "minecraft:coal_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.008
+        },
+        "state": {
+          "Name": "minecraft:copper_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.005
+        },
+        "state": {
+          "Name": "minecraft:iron_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.005
+        },
+        "state": {
+          "Name": "minecraft:sponge"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.005
+        },
+        "state": {
+          "Name": "minecraft:obsidian"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.003
+        },
+        "state": {
+          "Name": "minecraft:gold_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.002
+        },
+        "state": {
+          "Name": "minecraft:diamond_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.001
+        },
+        "state": {
+          "Name": "minecraft:emerald_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:dirt",
+          "probability": 0.001
+        },
+        "state": {
+          "Name": "minecraft:ancient_debris"
+        }
+      }
+    ],
+    "size": 12,
+    "discard_chance_on_air_exposure": 0
   }
 }

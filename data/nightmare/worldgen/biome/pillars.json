@@ -13,7 +13,11 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": [],
+    "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [[],[],[],[],["nightmare:trollball",
 "nightmare:quartzpillar",
 "nightmare:pillarfallen"]]

@@ -1,5 +1,5 @@
 {
-    "feature": "nightmare:pillardump",
+    "feature": "nightmare:pillar/pillardump",
     "placement": [
           {
       "type": "minecraft:biome"

@@ -1,5 +1,5 @@
 {
-    "feature": "nightmare:pillarfallen",
+    "feature": "nightmare:pillar/pillarfallen",
     "placement": [
           {
       "type": "minecraft:biome"

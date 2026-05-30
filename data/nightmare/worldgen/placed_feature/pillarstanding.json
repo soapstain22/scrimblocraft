@@ -1,5 +1,5 @@
 {
-    "feature": "nightmare:pillarstanding",
+    "feature": "nightmare:pillar/pillar",
     "placement": [
           {
       "type": "minecraft:biome"

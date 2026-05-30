@@ -1,5 +1,5 @@
 {
-  "feature": "nightmare:poisiontree",
+  "feature": "nightmare:poision/poisiontree",
   "placement": [
     {
       "type": "minecraft:noise_threshold_count",

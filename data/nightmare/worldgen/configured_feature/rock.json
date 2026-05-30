@@ -1,8 +1,11 @@
 {
-  "type": "minecraft:forest_rock",
+  "type": "minecraft:simple_block",
   "config": {
-    "state": {
-      "Name": "minecraft:mossy_cobblestone"
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:mossy_cobblestone"
+      }
     }
   }
 }

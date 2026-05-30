@@ -1,151 +1,127 @@
 {
-  "type": "minecraft:simple_block",
+  "type": "minecraft:block_pile",
   "config": {
-    "to_place": {
+    "state_provider": {
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:acacia_planks"
+            "Name": "minecraft:crafter"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:bamboo_planks"
+            "Name": "minecraft:furnace"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:birch_planks"
+            "Name": "minecraft:cracked_stone_bricks"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:cherry_planks"
+            "Name": "minecraft:cracked_deepslate_tiles"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:crimson_planks"
+            "Name": "minecraft:cracked_polished_blackstone_bricks"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:dark_oak_planks"
+            "Name": "minecraft:cracked_deepslate_bricks"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:jungle_planks"
+            "Name": "minecraft:cobweb"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:mangrove_planks"
+            "Name": "minecraft:damaged_anvil"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:oak_planks"
+            "Name": "minecraft:dropper"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:pale_oak_planks"
+            "Name": "minecraft:dispenser"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:spruce_planks"
+            "Name": "minecraft:crafting_table"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:warped_planks"
+            "Name": "minecraft:iron_bars"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:mossy_cobblestone"
+            "Name": "minecraft:composter"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:stone"
+            "Name": "minecraft:smoker"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:sandstone"
+            "Name": "minecraft:blast_furnace"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:granite"
+            "Name": "minecraft:cartography_table"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:cobbled_deepslate"
+            "Name": "minecraft:fletching_table"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:deepslate"
+            "Name": "minecraft:smithing_table"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:gravel"
+            "Name": "minecraft:jack_o_lantern"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:dirt"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:mud"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:andesite"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:diorite"
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:granite"
+            "Name": "minecraft:hopper"
           }
         }
       ]
